@@ -1,0 +1,213 @@
+body {
+  width: 92%;
+  background-color: red;
+}
+
+.container {
+  width: 100%
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+header {
+  flex-grow: 1;
+  width: 57%;
+  margin: 5% 0 0 5%;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+h1 {
+  font-size: 36px;
+  font-family: sans-serif;
+  display: block;
+  color: white;
+}
+
+#name:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/*#line1 {
+  padding: 66px;
+}
+#line2a {
+  padding: 10px;
+}
+
+#line2 {
+  padding-left: 182px;
+}
+
+#line3 {
+  padding-left: 265px
+}*/
+
+
+#hidden-text {
+  display: none;
+  font-size: 30px;
+  color: #ffda46;
+  font-style: italic;
+  text-transform:uppercase;
+}
+
+
+.film-content {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 80px;
+
+}
+
+.film-content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 0 200px 0;
+}
+
+.film-box {
+  width:210px;
+  margin: 10px;
+  /*height: 301px;*/
+  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  align-items: center;
+}
+
+/*#film1 {
+  width: 400px;
+}
+
+#film2 {
+  width: 550px;
+}
+
+#film3 {
+  width: 400px;
+}
+
+#film4 {
+  width: 600px;
+}*/
+.fa {
+  font-size: 80px;
+  padding: 25%;
+  color: black;
+
+}
+
+#oats {
+  display: none;
+  width: 700px;
+  height: 500px;
+}
+
+#otis {
+  display: none;
+  width: 500px;
+  height: 500px;
+}
+
+#saatsuma {
+  display: none;
+  width: 700px;
+  height: 600px;
+}
+
+#sister {
+  display: none;
+  width: 600px;
+  height: 600px;
+}
+
+#henrik {
+  display: none;
+  width: 600px;
+  height: 600px;
+}
+
+.hover {
+  background-color: transparent;
+  width:auto;
+}
+
+.hidden {
+  display: none;
+  font-size: 12px;
+  font-family: sans-serif;
+  padding: 20px;
+  text-transform: capitalize;
+  color: #ffda46
+}
+
+.hidden:hover {
+  text-decoration: underline;
+}
+
+p {
+  font-size: 12px;
+}
+
+footer {
+  padding: 50px;
+  padding-bottom: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: sans-serif;
+
+}
+
+.clients {
+  display:inline-block;
+  padding: 25px;
+}
+
+h3 {
+  font-size: 14px
+  color: white;
+}
+
+ul {
+  line-height:25px;
+  font-size: 16px;
+}
+
+ul:hover {
+  color:#ffda46;
+}
+
+
+.website {
+  display: flex;
+  align-items: flex-end;
+}
+
+.dropdown{
+  display:none;
+}
+
+.bottomNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
