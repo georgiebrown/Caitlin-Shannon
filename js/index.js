@@ -8,6 +8,11 @@ function start(){
   $('#film3').hover(showSaatsuma);
   $('#film4').hover(showSister);
   $('#film5').hover(showHenrik);
+  $('#freelanceButton').click(displayFreelance);
+  $('#publicationsButton').click(displayPublications);
+  $('#collaboratorsButton').click(displayCollaborators);
+  $('#speakButton').click(displayspeak);
+
 
 }
 
@@ -57,4 +62,28 @@ function showHenrik(){
   $('#henrik-description').show()
   $('#film5 .fa-play').hide();
   $(this).addClass('hover');
+}
+
+function displayFreelance(){
+  $('#freelance').show();
+  gotoBottom();
+}
+
+function displayPublications() {
+  $('#publications').show();
+  gotoBottom();
+}
+
+function displayCollaborators() {
+ $('#collaborators').show();
+ gotoBottom();
+ }
+
+ function displayspeak(){
+   $('#speak').show()
+   gotoBottom();
+ }
+
+ function gotoBottom(){
+   window.scrollTo(0,document.body.scrollHeight);
 }

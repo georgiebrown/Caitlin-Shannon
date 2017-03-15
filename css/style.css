@@ -1,10 +1,12 @@
+@media only screen and (min-width: 500px) {
+
 body {
-  width: 92%;
+  width: 100%;
   background-color: red;
 }
 
 .container {
-  width: 100%
+  width: 100%;
   display: flex;
   flex-direction: column;
 
@@ -14,7 +16,7 @@ body {
 header {
   flex-grow: 1;
   width: 57%;
-  margin: 5% 0 0 5%;
+  margin: 3% 0 0 3%;
   padding: 5px;
   display: flex;
   flex-direction: column;
@@ -62,9 +64,16 @@ h1 {
   text-transform:uppercase;
 }
 
+.film-content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 0 125px 0;
+  width: 100%;
+}
 
 .film-content {
-  width: 90%;
+  width: 88%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -72,15 +81,9 @@ h1 {
 
 }
 
-.film-content-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 60px 0 200px 0;
-}
-
 .film-box {
-  width:210px;
+  width:200px;
+  height: 200px;
   margin: 10px;
   /*height: 301px;*/
   display: inline-block;
@@ -108,7 +111,7 @@ h1 {
   width: 600px;
 }*/
 .fa {
-  font-size: 80px;
+  font-size: 56px;
   padding: 25%;
   color: black;
 
@@ -116,37 +119,47 @@ h1 {
 
 #oats {
   display: none;
-  width: 700px;
-  height: 500px;
+  width: 381px;
+  height: 211px;
+  background-color: #f00;
 }
 
 #otis {
   display: none;
-  width: 500px;
-  height: 500px;
+  width: 307px;
+  height: 211px;
+  background-color: #f00;
 }
 
 #saatsuma {
   display: none;
-  width: 700px;
-  height: 600px;
+  width: 403px;
+  height: 246px;
 }
 
 #sister {
   display: none;
-  width: 600px;
-  height: 600px;
+  width: 447px;
+  height: 246px;
 }
 
 #henrik {
   display: none;
-  width: 600px;
-  height: 600px;
+  width: 385px;
+  height: 211px;
 }
+
+.player .video-wrapper {
+    position: absolute;
+    background-color: #f00;
+  }
+
+
 
 .hover {
   background-color: transparent;
   width:auto;
+  display: inline-table;
 }
 
 .hidden {
@@ -158,10 +171,6 @@ h1 {
   color: #ffda46
 }
 
-.hidden:hover {
-  text-decoration: underline;
-}
-
 p {
   font-size: 12px;
 }
@@ -169,9 +178,9 @@ p {
 footer {
   padding: 50px;
   padding-bottom: 20px;
-  width: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   color: white;
   font-family: sans-serif;
 
@@ -187,22 +196,27 @@ h3 {
   color: white;
 }
 
+h3:hover {
+  text-decoration: underline;
+}
+
 ul {
   line-height:25px;
   font-size: 16px;
 }
 
 ul:hover {
-  color:#ffda46;
+  text-decoration: line-through;
 }
 
 
 .website {
   display: flex;
-  align-items: flex-end;
+  justify-content: flex-end;
+
 }
 
-.dropdown{
+.clientsDropdown{
   display:none;
 }
 
@@ -210,4 +224,193 @@ ul:hover {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.fa-arrow-down {
+  padding: 0;
+  font-size: 5px;
+  color: white;
+}
+
+h3 .fa {
+  font-size: 10px;
+}
+
+.mobile-film-content-wrapper {
+  display: none;
+  }
+}
+
+
+@media only screen and (max-width: 500px) {
+    .desktop{
+      display: none;
+    }
+
+    body {
+      width: 92%;
+      background-color: red;
+    }
+
+    .container {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+
+
+    }
+
+    header {
+      flex-grow: 1;
+      width: 100%;
+      margin: 5px 0 5px 0;
+      padding: 5px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .heading {
+      display: flex;
+      justify-content: space-between;
+
+    }
+
+    h1 {
+      font-size: 23px;
+      font-family: sans-serif;
+      display: block;
+      color: white;
+    }
+
+    #name:hover {
+      text-decoration: underline;
+      cursor: pointer;
+    }
+
+
+
+
+    #hidden-text {
+      display: none;
+      font-size: 12px;
+      color: #ffda46;
+      font-style: italic;
+      text-transform:uppercase;
+    }
+
+    .hidden {
+      display: none;
+      font-size: 12px;
+      font-family: sans-serif;
+      padding: 20px;
+      text-transform: capitalize;
+      color: #ffda46
+    }
+
+    p {
+      font-size: 12px;
+    }
+
+    footer {
+      padding: 5px;
+      padding-bottom: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      color: white;
+      font-family: sans-serif;
+
+    }
+
+    .clients {
+      display:inline-block;
+      padding: 25px;
+    }
+
+    h3 {
+      font-size: 8px
+      color: white;
+    }
+
+    ul {
+      line-height:25px;
+      font-size: 10px;
+    }
+
+    .website {
+      display: flex;
+      justify-content: flex-end;
+
+    }
+
+    .clientsDropdown{
+      display:none;
+    }
+
+    .bottomNav {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    .fa-arrow-down {
+      padding: 0;
+      font-size: 5px;
+      color: white;
+    }
+
+    h3 .fa {
+      font-size: 10px;
+    }
+
+    .mobile-film-content-wrapper{
+      width:100%;
+    }
+
+    .mobile-film-content {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    .mobile-film-box {
+      padding:5px 0 5px 0;
+    }
+
+    p {
+      font-size: 16px;
+      color: #ffda46;
+      padding: 5px;
+      font-family: sans-serif;
+
+    }
+
+    .bottomNav {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    .bottomNav div {
+      padding:5px;
+    }
+
+    .footer {
+      padding: 0;
+    }
+
+    h3 {
+      font-size: 10px;
+    }
+
+    .fa {
+    font-size: 8px;
+  }
+
+  ul {
+    line-height: 17px;
+    font-size: 8px;
+  }
+
 }
