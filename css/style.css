@@ -81,6 +81,14 @@ h1 {
 
 }
 
+p:hover {
+  color: #5075a7;
+}
+
+ul:hover {
+  color: #5075a7;
+}
+
 .film-box {
   width:200px;
   height: 200px;
@@ -169,7 +177,7 @@ h1 {
   font-family: sans-serif;
   padding: 20px;
   text-transform: capitalize;
-  color: #5075a7
+  color: white;
 }
 
 p {
@@ -205,11 +213,6 @@ ul {
   line-height:25px;
   font-size: 16px;
 }
-
-ul:hover {
-  text-decoration: line-through;
-}
-
 
 .website {
   display: flex;
@@ -294,7 +297,7 @@ h3 .fa {
     #hidden-text {
       display: none;
       font-size: 12px;
-      color: #5075a7;
+      color: white;
       font-style: italic;
       text-transform:uppercase;
     }
@@ -305,7 +308,7 @@ h3 .fa {
       font-family: sans-serif;
       padding: 20px;
       text-transform: capitalize;
-      color: #5075a7;
+      color: white;
 
     }
 
@@ -382,7 +385,7 @@ h3 .fa {
 
     p {
       font-size: 16px;
-      color: #5075a7;
+      color: white;
       padding: 5px;
       font-family: sans-serif;
 

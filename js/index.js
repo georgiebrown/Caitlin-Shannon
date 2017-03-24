@@ -65,22 +65,22 @@ function showHenrik(){
 }
 
 function displayFreelance(){
-  $('#freelance').show();
+  $('#freelance').slideToggle();
   gotoBottom();
 }
 
 function displayPublications() {
-  $('#publications').show();
+  $('#publications').slideToggle();
   gotoBottom();
 }
 
 function displayCollaborators() {
- $('#collaborators').show();
+ $('#collaborators').slideToggle();
  gotoBottom();
  }
 
  function displayspeak(){
-   $('#speak').show()
+   $('#speak').slideToggle()
    gotoBottom();
  }
 
