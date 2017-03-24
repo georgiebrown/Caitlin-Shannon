@@ -93,6 +93,7 @@ h1 {
   justify-content: center;
   background-color: white;
   align-items: center;
+  border-radius: 11px;
 }
 
 /*#film1 {
