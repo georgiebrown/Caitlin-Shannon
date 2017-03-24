@@ -2,7 +2,7 @@
 
 body {
   width: 100%;
-  background-color: red;
+  background-color: #e84824;
 }
 
 .container {
@@ -59,7 +59,7 @@ h1 {
 #hidden-text {
   display: none;
   font-size: 30px;
-  color: #ffda46;
+  color: #e6b905;
   font-style: italic;
   text-transform:uppercase;
 }
@@ -168,7 +168,7 @@ h1 {
   font-family: sans-serif;
   padding: 20px;
   text-transform: capitalize;
-  color: #ffda46
+  color: #e6b905
 }
 
 p {
@@ -293,7 +293,7 @@ h3 .fa {
     #hidden-text {
       display: none;
       font-size: 12px;
-      color: #ffda46;
+      color: #e6b905;
       font-style: italic;
       text-transform:uppercase;
     }
@@ -304,7 +304,8 @@ h3 .fa {
       font-family: sans-serif;
       padding: 20px;
       text-transform: capitalize;
-      color: #ffda46
+      color: #e6b905;
+
     }
 
     p {
@@ -380,7 +381,7 @@ h3 .fa {
 
     p {
       font-size: 16px;
-      color: #ffda46;
+      color: #e6b905;
       padding: 5px;
       font-family: sans-serif;
 
