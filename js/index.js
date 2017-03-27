@@ -24,12 +24,12 @@ function displayEmail(){
 
 function sendEmail(){
   console.log('clicked');
-window.open('mailto:howdy@caitlinanneshannon.com?subject=Hello&body=');
+  window.open('mailto:howdy@caitlinanneshannon.com?subject=Hello&body=');
 }
 
 function showOats(){
   $('#oats').show();
-  $('#oats-description').show()
+  $('#oats-description').show();
   $('#film1 .fa-play').hide();
   $('.film-box#film1').css('background-color','');
   $(this).addClass('hover');
@@ -37,7 +37,7 @@ function showOats(){
 
 function showOtis(){
   $('#otis').show();
-  $('#otis-description').show()
+  $('#otis-description').show();
   $('#film2 .fa-play').hide();
   $('.film-box#film2').css('background-color','');
   $(this).addClass('hover');
@@ -45,7 +45,7 @@ function showOtis(){
 
 function showSaatsuma(){
   $('#saatsuma').show();
-  $('#saatsuma-description').show()
+  $('#saatsuma-description').show();
   $('#film3 .fa-play').hide();
   $('#film3 .film-box').css('background-color','');
   $(this).addClass('hover');
@@ -53,7 +53,7 @@ function showSaatsuma(){
 
 function showSister(){
   $('#sister').show();
-  $('#sister-description').show()
+  $('#sister-description').show();
   $('#film4 .fa-play').hide();
   $(this).addClass('hover');
 
@@ -61,37 +61,32 @@ function showSister(){
 
 function showHenrik(){
   $('#henrik').show();
-  $('#henrik-description').show()
+  $('#henrik-description').show();
   $('#film5 .fa-play').hide();
   $(this).addClass('hover');
 }
 
 function displayFreelance(){
   $('#freelance').slideToggle();
-   $(document).scrollDown();
   gotoBottom();
 }
 
 function displayPublications() {
   $('#publications').slideToggle();
-   $(document).scrollDown();
   gotoBottom();
 }
 
 function displayCollaborators() {
  $('#collaborators').slideToggle();
-  $(document).scrollDown();
  gotoBottom();
  }
 
  function displayspeak(){
-   $('#speak').slideToggle()
-   $(document).scrollDown();
+   $('#speak').slideToggle();
    gotoBottom();
  }
 
  function gotoBottom(){
-  //  window.scrollTo(0,document.body.scrollHeight);
 document.body.scrollTop = document.body.scrollHeight;
 document.documentElement.scrollTop = document.documentElement.scrollHeight;
 }

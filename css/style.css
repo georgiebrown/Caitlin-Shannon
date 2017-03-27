@@ -254,6 +254,8 @@ ul {
 
 .navButton {
   cursor:pointer;
+  transition-timing-function: ease;
+  transition-duration: 2s;
 }
 
 .fa-arrow-down {
@@ -270,9 +272,12 @@ h3 .fa {
   display: none;
   }
 
+#hidden-text {
+  transition-timing-function: ease;
+}
 
 
-@media screen (max-width: 900px){
+@media screen and (max-width: 900px){
     /*.desktop{
       display: none;
     }*/
@@ -457,5 +462,9 @@ h3 .fa {
 
   ul:hover {
     color: #5075a7;
+  }
+
+  #sister-description{
+    padding-left: 50px;
   }
 }
