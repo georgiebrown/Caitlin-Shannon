@@ -1,4 +1,4 @@
-@media only screen and (min-width: 500px) {
+/*@media only screen and (min-width: 500px) {*/
 
 body {
   width: 100%;
@@ -58,7 +58,7 @@ h1 {
 
 #hidden-text {
   display: none;
-  font-size: 30px;
+  font-size: 17px;
   color: #5075a7;
   font-style: italic;
   text-transform:uppercase;
@@ -85,9 +85,13 @@ p:hover {
   color: #5075a7;
 }
 
-ul:hover {
+a:hover {
   color: #5075a7;
 }
+
+a {
+color: white;
+text-decoration: none;}
 
 .film-box {
   width:200px;
@@ -102,6 +106,7 @@ ul:hover {
   background-color: white;
   align-items: center;
   border-radius: 11px;
+  cursor: pointer;
 }
 
 /*#film1 {
@@ -175,7 +180,7 @@ ul:hover {
   display: none;
   font-size: 12px;
   font-family: sans-serif;
-  padding: 20px;
+  padding: 20px 0;
   text-transform: capitalize;
   color: white;
 }
@@ -209,9 +214,10 @@ h3:hover {
   text-decoration: underline;
 }
 
-ul {
+a {
   line-height:25px;
   font-size: 16px;
+  cursor: pointer;
 }
 
 .website {
@@ -230,6 +236,10 @@ ul {
   justify-content: space-between;
 }
 
+.navButton {
+  cursor:pointer;
+}
+
 .fa-arrow-down {
   padding: 0;
   font-size: 5px;
@@ -243,17 +253,17 @@ h3 .fa {
 .mobile-film-content-wrapper {
   display: none;
   }
-}
+
 
 
 @media only screen and (max-width: 500px) {
-    .desktop{
+    /*.desktop{
       display: none;
-    }
+    }*/
 
     body {
       width: 92%;
-      background-color: red;
+      background-color: #e84824;
     }
 
     .container {
@@ -267,7 +277,7 @@ h3 .fa {
     header {
       flex-grow: 1;
       width: 100%;
-      margin: 5px 0 5px 0;
+      /*margin: 5px 0 5px 0;*/
       padding: 5px;
       display: flex;
       flex-direction: column;
@@ -280,7 +290,7 @@ h3 .fa {
     }
 
     h1 {
-      font-size: 23px;
+      font-size: 26px;
       font-family: sans-serif;
       display: block;
       color: white;
@@ -337,7 +347,7 @@ h3 .fa {
       color: white;
     }
 
-    ul {
+    a {
       line-height:25px;
       font-size: 10px;
     }
@@ -350,12 +360,6 @@ h3 .fa {
 
     .clientsDropdown{
       display:none;
-    }
-
-    .bottomNav {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
     }
 
     .fa-arrow-down {
@@ -393,7 +397,7 @@ h3 .fa {
 
     .bottomNav {
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       justify-content: space-between;
     }
 
@@ -406,16 +410,24 @@ h3 .fa {
     }
 
     h3 {
-      font-size: 10px;
+      font-size: 17px;
     }
 
     .fa {
     font-size: 8px;
   }
 
-  ul {
+  a {
     line-height: 17px;
     font-size: 8px;
+  }
+
+  p:hover {
+    color: #5075a7;
+  }
+
+  a:hover {
+    color: #5075a7;
   }
 
 }

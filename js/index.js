@@ -3,11 +3,11 @@ $(document).ready(start);
 function start(){
   $('#name').click(displayEmail);
   $('#hidden-text').click(sendEmail);
-  $('#film1').hover(showOats);
-  $('#film2').hover(showOtis);
-  $('#film3').hover(showSaatsuma);
-  $('#film4').hover(showSister);
-  $('#film5').hover(showHenrik);
+  $('#film1').click(showOats);
+  $('#film2').click(showOtis);
+  $('#film3').click(showSaatsuma);
+  $('#film4').click(showSister);
+  $('#film5').click(showHenrik);
   $('#freelanceButton').click(displayFreelance);
   $('#publicationsButton').click(displayPublications);
   $('#collaboratorsButton').click(displayCollaborators);
@@ -85,5 +85,7 @@ function displayCollaborators() {
  }
 
  function gotoBottom(){
-   window.scrollTo(0,document.body.scrollHeight);
+  //  window.scrollTo(0,document.body.scrollHeight);
+document.body.scrollTop = document.body.scrollHeight;
+document.documentElement.scrollTop = document.documentElement.scrollHeight;
 }
