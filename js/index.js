@@ -1,6 +1,7 @@
-$(document).ready(start);
+
 
 function start(){
+
   $('#name').click(displayEmail);
   $('.email-me').click(sendEmail);
   $('#film1').click(showOats);
@@ -89,3 +90,5 @@ function displayCollaborators() {
 document.body.scrollTop = document.body.scrollHeight;
 document.documentElement.scrollTop = document.documentElement.scrollHeight;
 }
+
+$(document).ready(start);
