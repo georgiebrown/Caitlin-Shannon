@@ -2,7 +2,7 @@
 
 function start(){
 
-  
+
   $('#name').click(displayEmail);
   $('.email-me').click(sendEmail);
   $('#film1').click(showOats);

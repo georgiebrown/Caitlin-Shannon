@@ -3,7 +3,6 @@
 body {
   width: 100%;
   background-color: #e84824;
-  cursor: crosshair;
 }
 
 .container {
@@ -273,7 +272,7 @@ h3 .fa {
 
 
 
-@media screen and (max-width: 900px){
+@media screen (max-width: 900px){
     /*.desktop{
       display: none;
     }*/
