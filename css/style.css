@@ -89,9 +89,19 @@ a:hover {
   color: #5075a7;
 }
 
+ul:hover {
+  color: #5075a7;
+}
+
 a {
 color: white;
 text-decoration: none;}
+
+ul {
+color: white;
+text-decoration: none;}
+
+
 
 .film-box {
   width:200px;
@@ -215,6 +225,12 @@ h3:hover {
 }
 
 a {
+  line-height:25px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+ul {
   line-height:25px;
   font-size: 16px;
   cursor: pointer;
@@ -352,6 +368,11 @@ h3 .fa {
       font-size: 10px;
     }
 
+    ul {
+      line-height:25px;
+      font-size: 10px;
+    }
+
     .website {
       display: flex;
       justify-content: flex-end;
@@ -422,6 +443,11 @@ h3 .fa {
     font-size: 8px;
   }
 
+  ul {
+    line-height: 17px;
+    font-size: 8px;
+  }
+
   p:hover {
     color: #5075a7;
   }
@@ -430,4 +456,7 @@ h3 .fa {
     color: #5075a7;
   }
 
+  ul:hover {
+    color: #5075a7;
+  }
 }
