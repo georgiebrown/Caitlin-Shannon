@@ -2,6 +2,7 @@
 
 function start(){
 
+  
   $('#name').click(displayEmail);
   $('.email-me').click(sendEmail);
   $('#film1').click(showOats);
@@ -67,21 +68,25 @@ function showHenrik(){
 
 function displayFreelance(){
   $('#freelance').slideToggle();
+   $(document).scrollDown();
   gotoBottom();
 }
 
 function displayPublications() {
   $('#publications').slideToggle();
+   $(document).scrollDown();
   gotoBottom();
 }
 
 function displayCollaborators() {
  $('#collaborators').slideToggle();
+  $(document).scrollDown();
  gotoBottom();
  }
 
  function displayspeak(){
    $('#speak').slideToggle()
+   $(document).scrollDown();
    gotoBottom();
  }
 
