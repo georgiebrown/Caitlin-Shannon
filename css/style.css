@@ -277,7 +277,7 @@ h3 .fa {
 }
 
 
-@media screen and (min-device-width : 320px) and (max-device-width : 600px) {
+@media screen and (max-width: 900px) and (min-width: 200px){
     /*.desktop{
       display: none;
     }*/
@@ -322,7 +322,12 @@ h3 .fa {
       cursor: pointer;
     }
 
-
+    .film-content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0 125px 0;
+    width: 110%;}
 
 
     #hidden-text {
