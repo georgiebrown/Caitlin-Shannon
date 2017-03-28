@@ -277,7 +277,7 @@ h3 .fa {
 }
 
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 900px) and (min-width: 200px){
     /*.desktop{
       display: none;
     }*/
