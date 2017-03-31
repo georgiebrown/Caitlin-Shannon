@@ -321,6 +321,10 @@ h3 .fa {
     margin: 6px;
   }
 
+  .credits {
+    width: 70%;
+  }
+
 @media screen and (max-width: 900px) and (min-width: 200px){
     /*.desktop{
       display: none;
