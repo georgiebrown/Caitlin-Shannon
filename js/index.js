@@ -14,9 +14,12 @@ function start(){
   $('#publicationsButton').click(displayPublications);
   $('#collaboratorsButton').click(displayCollaborators);
   $('#speakButton').click(displayspeak);
+  $('.georgieCredit').hover(showGeorgie);
 
 
 }
+
+
 
 function displayEmail(){
   $('#hidden-text').slideToggle();
@@ -84,6 +87,11 @@ function displayCollaborators() {
  function displayspeak(){
    $('#speak').slideToggle();
    gotoBottom();
+ }
+
+ function showGeorgie(){
+   $(".georgieCredit").hide();
+   $(".showGeorgie").show();
  }
 
  function gotoBottom(){

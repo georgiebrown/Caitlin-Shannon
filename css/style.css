@@ -282,6 +282,16 @@ h3 .fa {
   transition-timing-function: ease;
 }
 
+h6 {
+  font-size: 8px;
+  text-align: right;
+  margin-top: 10px;
+}
+
+.showGeorgie {
+  display: none;
+}
+
 /*//VIDEO PAGES//*/
 
   .main-container p:hover{
@@ -323,6 +333,15 @@ h3 .fa {
 
   .credits {
     width: 70%;
+  }
+
+  .logo {
+    width: 20px;
+    padding: 100px;
+  }
+
+  .logo:hover {
+    content: src('logo/eggopen.png');
   }
 
 @media screen and (max-width: 900px) and (min-width: 200px){
