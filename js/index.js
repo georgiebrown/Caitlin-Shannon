@@ -27,7 +27,7 @@ function displayEmail(){
 
 function sendEmail(){
   console.log('clicked');
-  window.open('mailto:howdy@caitlinanneshannon.com?subject=Hello&body=');
+  window.open('mailto:caitlinanneshannon@gmail.com?subject=Hello&body=');
 }
 
 function showOats(){
