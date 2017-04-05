@@ -14,7 +14,7 @@ function start(){
   $('#publicationsButton').click(displayPublications);
   $('#collaboratorsButton').click(displayCollaborators);
   $('#speakButton').click(displayspeak);
-  $('.georgieCredit').hover(showGeorgie);
+  $('.email-georgie').click(emailGeorgie);
 
 
 }
@@ -28,6 +28,11 @@ function displayEmail(){
 function sendEmail(){
   console.log('clicked');
   window.open('mailto:caitlinanneshannon@gmail.com?subject=Hello&body=');
+}
+
+function emailGeorgie(){
+  window.open('mailto:georginaabrown@gmail.com?subject=Hello&body=');
+  
 }
 
 function showOats(){
