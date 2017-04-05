@@ -335,14 +335,6 @@ h6 {
     width: 70%;
   }
 
-  .logo {
-    width: 20px;
-    padding: 100px;
-  }
-
-  .logo:hover {
-    content: src('logo/eggopen.png');
-  }
 
   .screenshot {
     max-width: 80%;
@@ -350,27 +342,6 @@ h6 {
 
   }
 
-  .collage {
-    display:flex;
-    flex-direction: row;
-  }
-
-  #saatsuma1 {
-    width: 652px;
-    height: 400px;
-    margin: 10px;
-  }
-
-  .saatsumaCollage{
-    height: 195px;
-    width: 300px;
-    margin: 10px 0 0 0;
-  }
-
-  .ontopCollage {
-    display: flex;
-    flex-direction: column;
-  }
 
 @media screen and (max-width: 900px) and (min-width: 200px){
     /*.desktop{
