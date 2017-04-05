@@ -579,4 +579,10 @@ h6 {
     height: 196px;
 
   }
+
+  .MainVideo{
+  width: 90%;
+  margin: auto;
+  height: 196px;
+}
 }
