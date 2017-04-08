@@ -1,4 +1,4 @@
-
+$(document).ready(start);
 
 function start(){
 
@@ -32,7 +32,7 @@ function sendEmail(){
 
 function emailGeorgie(){
   window.open('mailto:georginaabrown@gmail.com?subject=Hello&body=');
-  
+
 }
 
 function showOats(){
