@@ -103,5 +103,3 @@ function displayCollaborators() {
 document.body.scrollTop = document.body.scrollHeight;
 document.documentElement.scrollTop = document.documentElement.scrollHeight;
 }
-
-$(document).ready(start);
