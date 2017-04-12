@@ -266,8 +266,6 @@ ul {
 
 .navButton {
   cursor:pointer;
-  transition-timing-function: ease;
-  transition-duration: 2s;
 }
 
 .fa-arrow-down {
@@ -285,7 +283,6 @@ h3 .fa {
   }
 
 #hidden-text {
-  transition-timing-function: ease;
 }
 
 h6 {
