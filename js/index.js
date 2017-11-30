@@ -10,6 +10,7 @@ function start(){
   $('#film3').click(showSaatsuma);
   $('#film4').click(showSister);
   $('#film5').click(showHenrik);
+  $('#filmBee').click(showBee);
   $('#freelanceButton').click(displayFreelance);
   $('#publicationsButton').click(displayPublications);
   $('#collaboratorsButton').click(displayCollaborators);
@@ -40,6 +41,14 @@ function showOats(){
   $('#oats-description').show();
   $('#film1 .fa-play').hide();
   $('.film-box#film1').css('background-color','');
+  $(this).addClass('hover');
+}
+
+function showBee(){
+  $('#bee').show();
+  $('#bee-description').show();
+  $('#filmBee .fa-play').hide();
+  $('.film-box#filmBee').css('background-color','');
   $(this).addClass('hover');
 }
 

@@ -80,7 +80,7 @@ h1 {
 }
 
 .film-content {
-  width: 88%;
+  width: 61%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -153,19 +153,29 @@ text-decoration: none;}
   color: black;
 
 }
+#player {
+  background: #e84824!important;
+
+}
+#bee {
+  display: none;
+  width: 381px;
+  height: 211px;
+  background-color: #e84824;
+}
 
 #oats {
   display: none;
   width: 381px;
   height: 211px;
-  background-color: #f00;
+  background-color: #e84824;
 }
 
 #otis {
   display: none;
   width: 307px;
   height: 211px;
-  background-color: #f00;
+  background-color: #e84824!important;
 }
 
 #saatsuma {
@@ -188,7 +198,7 @@ text-decoration: none;}
 
 .player .video-wrapper {
     position: absolute;
-    background-color: #f00;
+    background-color: #e84824;
   }
 
 
