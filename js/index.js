@@ -52,6 +52,7 @@ function showBee(){
   $(this).addClass('hover');
 }
 
+
 function showOtis(){
   $('#otis').show();
   $('#otis-description').show();
