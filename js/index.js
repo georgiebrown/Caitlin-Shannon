@@ -11,6 +11,7 @@ function start(){
   $('#film4').click(showSister);
   $('#film5').click(showHenrik);
   $('#filmBee').click(showBee);
+  $('#siestaFilm').click(showSiesta);
   $('#freelanceButton').click(displayFreelance);
   $('#publicationsButton').click(displayPublications);
   $('#collaboratorsButton').click(displayCollaborators);
@@ -41,6 +42,14 @@ function showOats(){
   $('#oats-description').show();
   $('#film1 .fa-play').hide();
   $('.film-box#film1').css('background-color','');
+  $(this).addClass('hover');
+}
+
+function showSiesta(){
+  $('#siesta').show();
+  $('#siesta-description').show();
+  $('#siestaFilm .fa-play').hide();
+  $('.film-box#siestaFilm').css('background-color','');
   $(this).addClass('hover');
 }
 

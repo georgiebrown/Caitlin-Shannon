@@ -157,6 +157,11 @@ text-decoration: none;}
   background: #e84824!important;
 
 }
+
+#siesta {
+  display: none;
+}
+
 #bee {
   display: none;
   width: 381px;
