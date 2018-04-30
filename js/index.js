@@ -17,6 +17,7 @@ function start(){
   $('#collaboratorsButton').click(displayCollaborators);
   $('#speakButton').click(displayspeak);
   $('.email-georgie').click(emailGeorgie);
+  $("#radicalFilm").click(showRadical);
 
 
 }
@@ -90,6 +91,13 @@ function showHenrik(){
   $('#henrik').show();
   $('#henrik-description').show();
   $('#film5 .fa-play').hide();
+  $(this).addClass('hover');
+}
+
+function showRadical(){
+  $('#radical').show();
+  $('#radical-description').show();
+  $('#radicalFilm .fa-play').hide();
   $(this).addClass('hover');
 }
 

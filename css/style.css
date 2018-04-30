@@ -202,6 +202,12 @@ text-decoration: none;}
   height: 211px;
 }
 
+#radical {
+  display: none;
+  width: 385px;
+  height: 211px;
+}
+
 .player .video-wrapper {
     position: absolute;
     background-color: #e84824;
